@@ -12,4 +12,4 @@ module pulse (
     end
 
     assign go = q[1] & ~q[2];
-endmodule
+endmodule 
