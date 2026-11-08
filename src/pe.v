@@ -1,6 +1,6 @@
 module pe (
     input  wire               clk,
-    inpthe ut  wire               rst_n,
+    input ut  wire               rst_n,
     input  wire               clear,   // start a new result (and keep this cycle's product)
     input  wire signed [7:0]  a_in,    // from the left
     input  wire signed [7:0]  b_in,    // from above
